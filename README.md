@@ -36,10 +36,27 @@ Most of the works performed on this data pointed to fix some issues:
     * ```IncRescuperados```
 
 
+#### Data exploration
+
 You will find some functions in order to print information relevant for you.
 
+
+```{python}
+res = ...# Reconstructed dataframe
+loc = 'MD'
+current_date='2020-05-05'
+displayInfo(res, location=loc, date=current_day)
+showStats(res, location=loc, feature='CASOS', aggregate=False)
+```
+
 ![General information](/images/general.png)
+```{python}
+showStats(res, location='MD', feature='CASOS', aggregate=False)
+```
 ![Information by region: new cases](/images/md1.png)
+```{python}
+showStats(res, location=loc, feature='IncFallecidos', aggregate=False)
+```
 ![Information by region: deceases](/images/md2.png)
 
 
