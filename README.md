@@ -25,6 +25,17 @@ Some considerations
 * Data is being updated via appending the new data (one record for each autonomous region) day by day, so the last records correspond with the more recent information.
 * **DISCLAIMER**: data provided from media differs from data displayed at some points. Moreover, several other factors could change in this dataset (as the described separator or the addition of new columns).
 
+#### Reconstruct time series
+
+Most of the works performed on this data pointed to fix some issues:
+* Fill ```CASOS``` column. This could be calculated based on the difference between ```PCR+``` day by day
+* Reconstruct the time series. At the moment, the features reflect the snapshot of the day by day, but there are no features representing the increments between dates. For this pupose, the reconstruction of the time series consist on calculate those increments on new features. In this manner, the following features will reflect the variation for those data respect the day before:
+    * ```IncHospitalizados```
+    * ```IncUCI```
+    * ```IncFallecidos```
+    * ```IncRescuperados```
+
+
 You will find some functions in order to print information relevant for you.
 
 ![General information](/images/general.png)
