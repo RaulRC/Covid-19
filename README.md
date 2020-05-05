@@ -25,6 +25,13 @@ Some considerations
 * Data is being updated via appending the new data (one record for each autonomous region) day by day, so the last records correspond with the more recent information.
 * **DISCLAIMER**: data provided from media differs from data displayed at some points. Moreover, several other factors could change in this dataset (as the described separator or the addition of new columns).
 
+You will find some functions in order to print information relevant for you.
+
+![General information](/images/general.png)
+![Information by region: new cases](/images/md1.png)
+![Information by region: deceases](/images/md2.png)
+
+
 
 ### 2. MoMo Dataset
 
