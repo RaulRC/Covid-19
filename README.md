@@ -53,6 +53,8 @@ MoMo dataset is aimed to mortality data. Is well prepared and no extra preproces
 * ```defunciones_esperadas_q01```: Percentil 1 of expecteds
 * ```defunciones_esperadas_q99```: Percentil 99 of expecteds
 
+![Deceases data](/images/momo_data.png)
+
 ### 3. 	European Centre for Disease Prevention and Control
 
 As is said at the [link](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide), the downloadable data file is updated daily and contains the latest available public data on COVID-19. Each row/entry contains the number of new cases reported per day and per country. You may use the data in line with ECDC’s copyright policy.
@@ -70,3 +72,5 @@ As is said at the [link](https://www.ecdc.europa.eu/en/publications-data/downloa
 * ```countryterritoryCode```: three letter country code
 * ```popData2018```: population accounted at 2018
 * ```continentExp```: continent related to that country
+
+![European cases and deaths](/images/eur_data.png)
