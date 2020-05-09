@@ -49,15 +49,15 @@ displayInfo(res, location=loc, date=current_day)
 showStats(res, location=loc, feature='CASOS', aggregate=False)
 ```
 
-![General information](/images/general.png)
+![General information](/images/_casos.png)
 ```{python}
 showStats(res, location='MD', feature='CASOS', aggregate=False)
 ```
-![Information by region: new cases](/images/md1.png)
+![Information by region: new cases](/images/md_casos.png)
 ```{python}
 showStats(res, location=loc, feature='IncFallecidos', aggregate=False)
 ```
-![Information by region: deceases](/images/md2.png)
+![Information by region: deceases](/images/md_incfallecidos.png)
 
 
 
