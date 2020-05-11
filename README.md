@@ -59,6 +59,12 @@ showStats(res, location=loc, feature='IncFallecidos', aggregate=False)
 ```
 ![Information by region: deceases](/images/md_incfallecidos.png)
 
+```{python}
+# Diagnosed people minus recovered
+showStats(res, location=loc, feature='ActiveCases')
+```
+![Information by region: deceases](/images/_activecases.png)
+
 
 
 ### 2. MoMo Dataset
