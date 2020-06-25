@@ -41,7 +41,7 @@ Most of the works performed on this data pointed to fix some issues:
 You will find some functions in order to print information relevant for you.
 
 
-```{python}
+```python
 res = ...# Reconstructed dataframe
 loc = 'MD'
 current_date='2020-05-05'
@@ -50,16 +50,16 @@ showStats(res, location=loc, feature='CASOS', aggregate=False)
 ```
 
 ![General information](/images/_casos.png)
-```{python}
+```python
 showStats(res, location='MD', feature='CASOS', aggregate=False)
 ```
 ![Information by region: new cases](/images/md_casos.png)
-```{python}
+```python
 showStats(res, location=loc, feature='IncFallecidos', aggregate=False)
 ```
 ![Information by region: deceases](/images/md_incfallecidos.png)
 
-```{python}
+```python
 # Diagnosed people minus recovered
 showStats(res, location=loc, feature='ActiveCases')
 ```
